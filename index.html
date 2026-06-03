@@ -196,8 +196,8 @@ async function queryGemini(base64img) {
     headers: {
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${key}`,
-      'HTTP-Referer': window.location.href,
-      'X-Title': 'Skaner AI'
+      'HTTP-Referer': 'https://skaner-ai.github.io',
+      'X-Title': 'Skaner-AI'
     },
     body: JSON.stringify({
       model: 'openrouter/free',

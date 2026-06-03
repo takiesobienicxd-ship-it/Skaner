@@ -200,7 +200,7 @@ async function queryGemini(base64img) {
       'X-Title': 'Skaner AI'
     },
     body: JSON.stringify({
-      model: 'google/gemini-2.0-flash-exp:free',
+      model: 'openrouter/free',
       max_tokens: 512,
       messages: [{
         role: 'user',
